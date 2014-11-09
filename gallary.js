@@ -55,8 +55,9 @@ $(function(){
     // サムネイルの最初の一枚の親 li に current クラスを付ける
     $(thumbFiles[0]).parent().parent().addClass('current');
     
-    // ロード時の再生ボタンor停止ボタンの表示
+    // ロード時の再生機能オンかどうかとボタンor停止ボタンの表示
     if(options.startPlay) {
+        currentNum--;
         autoPlay();
         playBtnHide();
     } else {
