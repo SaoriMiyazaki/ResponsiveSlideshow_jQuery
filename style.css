@@ -52,11 +52,13 @@
 }
 #prev{
     -ms-transform: rotateX(-45deg);
+    -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
 }
 #next{
     right: 0;
     -ms-transform: rotateX(135deg);
+    -webkit-transform: rotate(135deg);
     transform: rotate(135deg);
 }
 .ctr_btn{
