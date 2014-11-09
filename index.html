@@ -1,0 +1,45 @@
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>レスポンシブスライドショーデモ demo｜memocarilog</title>
+<link rel="stylesheet" href="style.css" media="screen, projection, print">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="gallary.js"></script>
+</head>
+<body>
+<h1>レスポンシブスライドショーデモ demo｜memocarilog</h1>
+<div id="container">
+<div id="photo_container">
+	<!-- #thumbnail -->
+	<ul id="thumbnail">
+		<li><a href="image/1.jpg"><img src="image/thumb/1.jpg" alt="photo1" /></a></li>
+		<li><a href="image/2.jpg"><img src="image/thumb/2.jpg" alt="photo2" /></a></li>
+		<li><a href="image/3.jpg"><img src="image/thumb/3.jpg" alt="photo3" /></a></li>
+		<li><a href="image/4.jpg"><img src="image/thumb/4.jpg" alt="photo4" /></a></li>
+		<li><a href="image/5.jpg"><img src="image/thumb/5.jpg" alt="photo5" /></a></li>
+		<li><a href="image/6.jpg"><img src="image/thumb/6.jpg" alt="photo6" /></a></li>
+	</ul>
+	<!-- /#thumbnail -->
+	
+	<!-- #main_photo -->
+	<div id="main_photo">
+	
+        <div class="img_nav">
+            <btn id="next"></btn>
+            <btn id="prev"></btn>
+        </div>
+
+        <div class="ctr_btn">
+            <btn id="play_btn">Play</btn>
+            <btn id="stop_btn">Stop</btn>
+        </div>
+	</div>
+	<!-- /#main_photo -->
+	
+</div><!-- /#photo_container -->
+
+</div><!--container-->
+</body>
+</html>
